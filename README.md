@@ -3,4 +3,4 @@ Integrante
 
 - Jofre Lescano
 - Paul Ñuflo
-- Renzo 
+- Renzo Yesquen
