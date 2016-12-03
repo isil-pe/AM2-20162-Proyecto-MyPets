@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.isil.mypets.fragments.NoticiaFragment">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@color/skye"
+        android:text="Noticias"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none"
+        android:id="@+id/lstNotice">
+    </ListView>
+
+</LinearLayout>

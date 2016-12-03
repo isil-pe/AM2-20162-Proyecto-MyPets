@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.isil.mypets.fragments.NoticiaDetalleFragment">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/btnVolver"
+            android:background="@color/skye"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="italic"
+            android:id="@+id/btnVolverListaNoticia"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/noticia"
+            android:id="@+id/imgNoticiaDetalle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tviNoticiaTitulo"
+            android:hint="Titulo"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:id="@+id/tviNoticiaDescripcion"
+            android:hint="Detalle de Noticia"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/btnComentarios"
+            android:background="@color/black"
+            android:textColor="@color/skye"
+            android:textStyle="italic"
+            android:id="@+id/btnVerNoticiaComentarios"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuPerfil"
+            android:checked="false"
+            android:icon="@mipmap/ic_android"
+            android:title="Noticias" />
+
+        <item
+            android:id="@+id/menuBlog"
+            android:checked="false"
+            android:icon="@mipmap/ic_android"
+            android:title="Noticias" />
+
+        <item
+            android:id="@+id/menuNoticias"
+            android:checked="false"
+            android:icon="@mipmap/ic_android"
+            android:title="Noticias" />
+
+        <item
+            android:id="@+id/menuLogout"
+            android:checked="false"
+            android:icon="@mipmap/ic_android"
+            android:title="Cerrar sesión" />
+
+
+    </group>
+</menu>
+

@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.isil.mypets.fragments.ComentariosFragment">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/btnVolverNoticiaDetalle"
+        android:background="@color/skye"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="italic"
+        android:id="@+id/btnVolverDetalle"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none"
+        android:id="@+id/lstComentarios">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:id="@+id/eteComentario"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/enviar"
+            android:id="@+id/btnEnviarComentario"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
